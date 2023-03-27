@@ -5,3 +5,6 @@ Examples:
 
 uniTotal("a") == 97
 uniTotal("aaa") == 291
+
+def uni_total(s):
+    return sum([ord(char) for char in s])
